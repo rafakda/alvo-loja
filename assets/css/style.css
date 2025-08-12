@@ -371,6 +371,13 @@ clip-path: polygon(8% 0, 70% 0%, 100% 0, 100% 93%, 92% 100%, 30% 100%, 0 100%, 0
     flex-direction: column;
     margin-bottom: 30px;
     }
+    
+    .flexslider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
 }
 .acoes-produto-responsiva.visible-phone a{ /*MARCADO PARA TROCAR NO SERVIDOR*/
@@ -493,5 +500,3 @@ clip-path: polygon(8% 0, 70% 0%, 100% 0, 100% 93%, 92% 100%, 30% 100%, 0 100%, 0
 #barraNewsletter .componente .botao {
 	background: var(--main-bt-color)!important;
 }
-
-
