@@ -3650,7 +3650,7 @@ Armas ..." />
 
 <ul data-produtos-linha="4" class="produtos-carrossel">
   
-    <li class="listagem-linha flexslider"><ul class="">
+    <li class="listagem-linha listaDois flexslider"><ul class="">
       
         <li>
       
@@ -5015,7 +5015,7 @@ Armas ..." />
 
 <ul data-produtos-linha="4" class="produtos-carrossel">
   
-    <li class="listagem-linha flexslider"><ul class="">
+    <li class="listagem-linha listaTres flexslider"><ul class="">
       
         <li>
       
@@ -7586,7 +7586,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       
       
       
-      
+
+
+
+
+
       
       
       
@@ -7599,12 +7603,16 @@ function handleTabletChange(e) {
     // Código a ser executado quando a condição da media query for verdadeira
     console.log('Tela menor ou igual a 768px');
     // Exemplo: adicionar uma classe a um elemento
-    document.querySelector('.listagem-linha').classList.remove('listagem-linha');
+    document.querySelector('ul .listagem-linha').classList.remove('listagem-linha');
+    document.querySelector('ul .listaDois').classList.remove('listagem-linha');
+    document.querySelector('ul .listaTres').classList.remove('listagem-linha');
   } else {
     // Código a ser executado quando a condição da media query for falsa
     console.log('Tela maior que 768px');
     // Exemplo: remover uma classe de um elemento
-    document.querySelector('.listagem-linha').classList.add('listagem-linha');
+    document.querySelector('ul .listagem-linha').classList.add('listagem-linha');
+    document.querySelector('ul .listaDois').classList.add('listagem-linha');
+    document.querySelector('ul .listaTres').classList.add('listagem-linha');
   }
 }
 
