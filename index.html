@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    
       <meta property="og:url" content="https://www.alvoesportes.com.br/" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Alvo Esportes" />
@@ -736,7 +737,7 @@ Armas ..." />
       
     
 
-<div class="conteiner-principal"zz>
+<div class="conteiner-principal">
       
         
  <!--INICIO CABEÇALHO -->         
@@ -924,17 +925,10 @@ Armas ..." />
   
     
       
-<div class="menu superior">
-  <ul class="nivel-um">
-    
-
-
-    
-
+<div class="menu superior" >
+  <ul class="nivel-um" >
   
-
-
-    
+   
       <li class="categoria-id-4927794 com-filho borda-principal">
         <a href="https://www.alvoesportes.com.br/airsoft" title="Airsoft e linha Pressão">
           <strong class="titulo cor-secundaria">Airsoft e linha Pressão</strong>
@@ -6692,7 +6686,7 @@ Armas ..." />
 
 
 <div id="rodape">
-  <div class="institucional fundo-secundario">
+  <div class="institucional fundo-secundario" >
     <div class="conteiner">
       <div class="row-fluid">
         <div class="span9">
@@ -6703,7 +6697,7 @@ Armas ..." />
                   
                     
 <div class="span4 links-rodape links-rodape-categorias">
-  <span class="titulo">Categorias</span>
+  <span class="titulo" >Categorias</span>
   <ul class=" total-itens_6">
     
       
@@ -6855,7 +6849,7 @@ Desde 2016, garantimos qualidade, preços competitivos e um atendimento ao clien
   <div class="lista-redes ">
     <ul>
       
-        <li class="visible-phone">
+        <li class="visible-phone" >
           <a href="https://facebook.com/alvoesportes/" target="_blank" aria-label="Siga nos no Facebook"><i class="icon-facebook"></i></a>
         </li>
       
@@ -7585,9 +7579,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         });
       }
     </script>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <script>
+const mediaQuery = window.matchMedia('(max-width: 768px)');
+
+function handleTabletChange(e) {
+  // Verifica se a media query é verdadeira (a largura da tela é menor ou igual a 768px)
+  if (e.matches) {
+    // Código a ser executado quando a condição da media query for verdadeira
+    console.log('Tela menor ou igual a 768px');
+    // Exemplo: adicionar uma classe a um elemento
+    document.querySelector('.listagem-linha').classList.remove('listagem-linha');
+  } else {
+    // Código a ser executado quando a condição da media query for falsa
+    console.log('Tela maior que 768px');
+    // Exemplo: remover uma classe de um elemento
+    document.querySelector('.listagem-linha').classList.add('listagem-linha');
+  }
+}
+
+// Adiciona um listener para detectar mudanças na media query
+mediaQuery.addListener(handleTabletChange);
+
+// Executa a função handleTabletChange uma vez para verificar o estado inicial
+handleTabletChange(mediaQuery);
+</script>
   
 
 
   </body>
 </html>
-
