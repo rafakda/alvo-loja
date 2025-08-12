@@ -371,13 +371,16 @@ clip-path: polygon(8% 0, 70% 0%, 100% 0, 100% 93%, 92% 100%, 30% 100%, 0 100%, 0
     flex-direction: column;
     margin-bottom: 30px;
     }
-    
-    .flexslider{
+    .flexslider ul li{
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+      
+        padding-right: 20px;
     }
+
+    
+   
 
 }
 .acoes-produto-responsiva.visible-phone a{ /*MARCADO PARA TROCAR NO SERVIDOR*/
