@@ -135,6 +135,10 @@
     overflow: hidden;
 }
 
+.minhaClasse{
+    background-color: red;
+}
+
     
 #barraTopo .conteiner .titulo a > img {
     height: 50px
@@ -365,6 +369,7 @@ clip-path: polygon(8% 0, 70% 0%, 100% 0, 100% 93%, 92% 100%, 30% 100%, 0 100%, 0
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 30px;
     }
 
 }
