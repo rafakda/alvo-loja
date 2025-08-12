@@ -371,16 +371,19 @@ clip-path: polygon(8% 0, 70% 0%, 100% 0, 100% 93%, 92% 100%, 30% 100%, 0 100%, 0
     flex-direction: column;
     margin-bottom: 30px;
     }
-    .flexslider ul li{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .listagem-item{
+       
       
-        padding-right: 20px;
+        margin-right: 20px;
     }
 
     
    
+
+}
+.slides li a{
+    width: 100%;
+    display: block;
 
 }
 .acoes-produto-responsiva.visible-phone a{ /*MARCADO PARA TROCAR NO SERVIDOR*/
