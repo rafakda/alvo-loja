@@ -371,10 +371,10 @@ clip-path: polygon(8% 0, 70% 0%, 100% 0, 100% 93%, 92% 100%, 30% 100%, 0 100%, 0
     flex-direction: column;
     margin-bottom: 30px;
     }
-   .flexslider{
+   .listagem-item{
        
       
-        padding-right: 20px;
+        margin-right: 20px;
     }
 
     
