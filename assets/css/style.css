@@ -371,10 +371,10 @@ clip-path: polygon(8% 0, 70% 0%, 100% 0, 100% 93%, 92% 100%, 30% 100%, 0 100%, 0
     flex-direction: column;
     margin-bottom: 30px;
     }
-    .listagem-item{
+   .flexslider{
        
       
-        margin-right: 20px;
+        padding-right: 20px;
     }
 
     
@@ -506,3 +506,4 @@ clip-path: polygon(8% 0, 70% 0%, 100% 0, 100% 93%, 92% 100%, 30% 100%, 0 100%, 0
 #barraNewsletter .componente .botao {
 	background: var(--main-bt-color)!important;
 }
+
